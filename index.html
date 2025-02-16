@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plan Your Perfect Trip</h1>
+        <form id="tourForm">
+            <label>From Date:</label>
+            <input type="date" id="fromDate" required>
+
+            <label>To Date:</label>
+            <input type="date" id="toDate" required>
+
+            <label>Who are you travelling with?</label>
+            <select id="companions">
+                <option value="friends">Friends</option>
+                <option value="family">Family</option>
+                <option value="partner">Partner</option>
+                <option value="solo">Solo</option>
+            </select>
+
+            <label>Budget:</label>
+            <select id="budget">
+                <option value="minimum">Minimum</option>
+                <option value="good">Good</option>
+                <option value="expensive">Expensive</option>
+            </select>
+            
+            <label>Destination:</label>
+            <input type="text" id="destination" placeholder="Enter a place" required>
+
+            <button type="submit">Plan My Trip</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

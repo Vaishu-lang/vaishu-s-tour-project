@@ -1,0 +1,18 @@
+{
+    "Bali": {
+        "minimum": {
+            "stay":"Budget Hostel",
+            "places":["Ubud Monkey Forest", "Kuta Beach"],
+            "activities":["Surfing","Temple Visit"]
+        },
+        "good":{
+            "stay": "3-Star Hotel",
+            "places":["Tanah Lot","Mount Batur"],
+            "activities":["Hiking","Cultural Tour"]
+
+
+        }
+
+    
+    }
+}
